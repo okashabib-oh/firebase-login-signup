@@ -3,12 +3,12 @@ import { getAuth, createUserWithEmailAndPassword, signInWithEmailAndPassword} fr
 
 const firebaseConfig = {
     apiKey: "",
-    authDomain: "smit-login-signup-fff5e.firebaseapp.com",
-    projectId: "smit-login-signup-fff5e",
-    storageBucket: "smit-login-signup-fff5e.appspot.com",
-    messagingSenderId: "27511200305",
-    appId: "1:27511200305:web:6a8ef671375e14c2ce9310",
-    measurementId: "G-XBET8B79EY"
+    authDomain: "",
+    projectId: "",
+    storageBucket: "",
+    messagingSenderId: "",
+    appId: "",
+    measurementId: ""
 };
 
 const app = initializeApp(firebaseConfig);
