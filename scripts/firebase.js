@@ -2,7 +2,7 @@ import { initializeApp } from "https://www.gstatic.com/firebasejs/10.12.4/fireba
 import { getAuth, createUserWithEmailAndPassword, signInWithEmailAndPassword} from "https://www.gstatic.com/firebasejs/10.12.4/firebase-auth.js";
 
 const firebaseConfig = {
-    apiKey: "AIzaSyDpwX8sPVQjwZJUY6QiqoSw8nTFG2ER24k",
+    apiKey: "",
     authDomain: "smit-login-signup-fff5e.firebaseapp.com",
     projectId: "smit-login-signup-fff5e",
     storageBucket: "smit-login-signup-fff5e.appspot.com",
