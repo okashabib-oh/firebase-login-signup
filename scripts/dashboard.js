@@ -11,7 +11,6 @@ const userCheck = async (user) => {
     try {
         if (user) {
             const userInfo = await user;
-            console.log(userInfo);
             const userEmail = user.email
             const lastLoginAt = user.metadata.lastSignInTime
             const accountCreate = user.metadata.creationTime
